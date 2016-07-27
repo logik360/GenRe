@@ -1,0 +1,2091 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cedent</ID>
+  <Name>Cedent</Name>
+  <CreatedTimestamp>2016-06-02T18:24:38.203333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2016-07-23T17:02:10.346667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1580" scrolltop="-1279" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9128" y="16986" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vw_DimCedent" left="-456" top="-3149" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5636" height="18097" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c000004160000b1460000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="MSBI_vw_DimCedent" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1580</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1279</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-456</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3149</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="166">
+            <Shape Id="Cedent SK" Expanded="true">
+              <Attributes>
+                <Attribute Id="Cedent SK" />
+                <Attribute Id="BP Affiliate Gen Re" />
+                <Attribute Id="Cedent Desc" />
+                <Attribute Id="CG Country Hierarchy" />
+                <Attribute Id="EU Country Hierarchy" />
+                <Attribute Id="Marketing Region" />
+                <Attribute Id="NAIC" />
+                <Attribute Id="Cedent 1" />
+                <Attribute Id="Cedent Name 1" />
+                <Attribute Id="WW Country Hierarchy" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Cedent" Expanded="true">
+              <Attributes>
+                <Attribute Id="Cedent" />
+                <Attribute Id="Cedent Sort" />
+              </Attributes>
+              <Position x="232" y="20" />
+            </Shape>
+            <Shape Id="Ultimate Parent" Expanded="true">
+              <Attributes>
+                <Attribute Id="Ultimate Parent" />
+                <Attribute Id="Ultimate Parent Sort" />
+              </Attributes>
+              <Position x="232" y="92" />
+            </Shape>
+            <Shape Id="WW Level6" Expanded="false">
+              <Attributes>
+                <Attribute Id="WW Level6" />
+              </Attributes>
+              <Position x="232" y="164" />
+            </Shape>
+            <Shape Id="WW Level5" Expanded="false">
+              <Attributes>
+                <Attribute Id="WW Level5" />
+              </Attributes>
+              <Position x="445" y="164" />
+            </Shape>
+            <Shape Id="WW Level4" Expanded="false">
+              <Attributes>
+                <Attribute Id="WW Level4" />
+              </Attributes>
+              <Position x="657" y="164" />
+            </Shape>
+            <Shape Id="WW Level3" Expanded="false">
+              <Attributes>
+                <Attribute Id="WW Level3" />
+              </Attributes>
+              <Position x="870" y="164" />
+            </Shape>
+            <Shape Id="WW Level2" Expanded="false">
+              <Attributes>
+                <Attribute Id="WW Level2" />
+              </Attributes>
+              <Position x="1082" y="164" />
+            </Shape>
+            <Shape Id="WW Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="WW Level1" />
+              </Attributes>
+              <Position x="1295" y="164" />
+            </Shape>
+            <Shape Id="EU Level6" Expanded="false">
+              <Attributes>
+                <Attribute Id="EU Level6" />
+              </Attributes>
+              <Position x="232" y="212" />
+            </Shape>
+            <Shape Id="EU Level5" Expanded="false">
+              <Attributes>
+                <Attribute Id="EU Level5" />
+              </Attributes>
+              <Position x="445" y="212" />
+            </Shape>
+            <Shape Id="EU Level4" Expanded="false">
+              <Attributes>
+                <Attribute Id="EU Level4" />
+              </Attributes>
+              <Position x="657" y="212" />
+            </Shape>
+            <Shape Id="EU Level3" Expanded="false">
+              <Attributes>
+                <Attribute Id="EU Level3" />
+              </Attributes>
+              <Position x="870" y="212" />
+            </Shape>
+            <Shape Id="EU Level2" Expanded="false">
+              <Attributes>
+                <Attribute Id="EU Level2" />
+              </Attributes>
+              <Position x="1082" y="212" />
+            </Shape>
+            <Shape Id="EU Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="EU Level1" />
+              </Attributes>
+              <Position x="1295" y="212" />
+            </Shape>
+            <Shape Id="CG Level6" Expanded="false">
+              <Attributes>
+                <Attribute Id="CG Level6" />
+              </Attributes>
+              <Position x="232" y="260" />
+            </Shape>
+            <Shape Id="CG Level5" Expanded="false">
+              <Attributes>
+                <Attribute Id="CG Level5" />
+              </Attributes>
+              <Position x="445" y="260" />
+            </Shape>
+            <Shape Id="CG Level4" Expanded="false">
+              <Attributes>
+                <Attribute Id="CG Level4" />
+              </Attributes>
+              <Position x="657" y="260" />
+            </Shape>
+            <Shape Id="CG Level3" Expanded="false">
+              <Attributes>
+                <Attribute Id="CG Level3" />
+              </Attributes>
+              <Position x="870" y="260" />
+            </Shape>
+            <Shape Id="CG Level2" Expanded="false">
+              <Attributes>
+                <Attribute Id="CG Level2" />
+              </Attributes>
+              <Position x="1082" y="260" />
+            </Shape>
+            <Shape Id="CG Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="CG Level1" />
+              </Attributes>
+              <Position x="1295" y="260" />
+            </Shape>
+            <Shape Id="Country" Expanded="false">
+              <Attributes>
+                <Attribute Id="Country" />
+                <Attribute Id="Country Desc" />
+              </Attributes>
+              <Position x="232" y="308" />
+            </Shape>
+            <Shape Id="Cedent Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cedent Name" />
+              </Attributes>
+              <Position x="232" y="356" />
+            </Shape>
+            <Shape Id="Ultimate Parent Desc" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ultimate Parent Desc" />
+              </Attributes>
+              <Position x="445" y="356" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2016-07-23T17:03:25.55Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>DRW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission>
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>2016-06-02T18:24:38.216667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2016-07-23T17:02:10.486667Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Cedent SK</ID>
+      <Name>Cedent SK</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>93991</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CedentSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CedentSK</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Cedent Name</AttributeID>
+          <Name>Cedent Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>NAIC</AttributeID>
+          <Name>NAIC</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cedent Desc</AttributeID>
+          <Name>Cedent Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cedent 1</AttributeID>
+          <Name>Vendor</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cedent Name 1</AttributeID>
+          <Name>Vendor Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>CG Country Hierarchy</AttributeID>
+          <Name>CG Country Hierarchy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>CG Level6</AttributeID>
+          <Name>CG Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>EU Country Hierarchy</AttributeID>
+          <Name>EU Country Hierarchy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>EU Level6</AttributeID>
+          <Name>EU Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>WW Country Hierarchy</AttributeID>
+          <Name>WW Country Hierarchy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>WW Level6</AttributeID>
+          <Name>WW Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Marketing Region</AttributeID>
+          <Name>Marketing Region</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Ultimate Parent</AttributeID>
+          <Name>Ultimate Parent</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cedent</AttributeID>
+          <Name>Cedent</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>BP Affiliate Gen Re</AttributeID>
+          <Name>BP Affiliate Gen Re</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Domicile Country</AttributeID>
+          <Name>Domicile Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Domicile Country Desc</AttributeID>
+          <Name>Domicile Country Desc</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cedent Name</ID>
+      <Name>Partner Name</Name>
+      <EstimatedCount>7909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>UltimateParent</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CedentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CedentName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Ultimate Parent Desc</AttributeID>
+          <Name>Ultimate Parent Desc</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cedent Desc</ID>
+      <Name>Partner Desc</Name>
+      <EstimatedCount>80122</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>163</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CedentDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>163</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CedentDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Ultimate Parent Desc</ID>
+      <Name>Ultimate Parent Desc</Name>
+      <EstimatedCount>336</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>163</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>UltimateParentDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>163</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>UltimateParentDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>NAIC</ID>
+      <Name>NAIC</Name>
+      <EstimatedCount>2933</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>NAIC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>60</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>NAIC</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <EstimatedCount>88</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>Country</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Country Desc</AttributeID>
+          <Name>Country Desc</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Country Desc</ID>
+      <Name>Country Desc</Name>
+      <EstimatedCount>88</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CountryDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CountryDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cedent 1</ID>
+      <Name>Vendor</Name>
+      <EstimatedCount>92828</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>Cedent</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>Cedent</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cedent Name 1</ID>
+      <Name>Vendor Name</Name>
+      <EstimatedCount>7909</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CedentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CedentName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Country Hierarchy</ID>
+      <Name>CG Country Hierarchy</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_CountryHierarchy</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Level1</ID>
+      <Name>CG Level1</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_Level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Level2</ID>
+      <Name>CG Level2</Name>
+      <EstimatedCount>35</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_Level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>CG Level1</AttributeID>
+          <Name>CG Level1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Level3</ID>
+      <Name>CG Level3</Name>
+      <EstimatedCount>85</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_Level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>CG Level2</AttributeID>
+          <Name>CG Level2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Level4</ID>
+      <Name>CG Level4</Name>
+      <EstimatedCount>86</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_Level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>CG Level3</AttributeID>
+          <Name>CG Level3</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Level5</ID>
+      <Name>CG Level5</Name>
+      <EstimatedCount>86</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_Level5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>CG Level4</AttributeID>
+          <Name>CG Level4</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>CG Level6</ID>
+      <Name>CG Level6</Name>
+      <EstimatedCount>86</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>CG_Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>CG_Level6</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>CG Level5</AttributeID>
+          <Name>CG Level5</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Country Hierarchy</ID>
+      <Name>EU Country Hierarchy</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_CountryHierarchy</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Level1</ID>
+      <Name>EU Level1</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_Level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Level2</ID>
+      <Name>EU Level2</Name>
+      <EstimatedCount>72</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_Level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>EU Level1</AttributeID>
+          <Name>EU Level1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Level3</ID>
+      <Name>EU Level3</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_Level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>EU Level2</AttributeID>
+          <Name>EU Level2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Level4</ID>
+      <Name>EU Level4</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_Level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>EU Level3</AttributeID>
+          <Name>EU Level3</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Level5</ID>
+      <Name>EU Level5</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_Level5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>EU Level4</AttributeID>
+          <Name>EU Level4</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>EU Level6</ID>
+      <Name>EU Level6</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>EU_Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>EU_Level6</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>EU Level5</AttributeID>
+          <Name>EU Level5</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Country Hierarchy</ID>
+      <Name>WW Country Hierarchy</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_CountryHierarchy</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Level1</ID>
+      <Name>WW Level1</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_Level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Level2</ID>
+      <Name>WW Level2</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_Level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>WW Level1</AttributeID>
+          <Name>WW Level1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Level3</ID>
+      <Name>WW Level3</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_Level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>WW Level2</AttributeID>
+          <Name>WW Level2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Level4</ID>
+      <Name>WW Level4</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_Level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>WW Level3</AttributeID>
+          <Name>WW Level3</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Level5</ID>
+      <Name>WW Level5</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_Level5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>WW Level4</AttributeID>
+          <Name>WW Level4</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>WW Level6</ID>
+      <Name>WW Level6</Name>
+      <EstimatedCount>87</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_CountryHierarchy</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>WW_Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>WW_Level6</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>WW Level5</AttributeID>
+          <Name>WW Level5</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Marketing Region</ID>
+      <Name>Marketing Region</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>MarketingRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>25</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>MarketingRegion</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Ultimate Parent</ID>
+      <Name>Ultimate Parent</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>UltimateParent</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>UltimateParent</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Ultimate Parent Sort</AttributeID>
+          <Name>Ultimate Parent Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Ultimate Parent Sort</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cedent</ID>
+      <Name>Partner</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>Cedent</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>Cedent</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Cedent Sort</AttributeID>
+          <Name>Cedent Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Cedent Sort</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Ultimate Parent Sort</ID>
+      <Name>Ultimate Parent Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>UltimateParent_Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>UltimateParent_Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BP Affiliate Gen Re</ID>
+      <Name>BP Affiliate GenRe</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>BPAffiliateGenRe</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>BPAffiliateGenRe</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cedent Sort</ID>
+      <Name>Cedent Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>Cedent_Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>Cedent_Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Domicile Country</ID>
+      <Name>Domicile Country</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>24</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>DomicileCountry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>24</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>DomicileCountry</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Domicile Country Desc</ID>
+      <Name>Domicile Country Desc</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimCedent</TableID>
+            <ColumnID>DomicileCountryDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimCedent</TableID>
+          <ColumnID>DomicileCountryDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>AC Ultimate Parent</Name>
+      <Levels>
+        <Level>
+          <ID>Ultimate Parent Desc</ID>
+          <Name>Ultimate Parent Desc</Name>
+          <SourceAttributeID>Ultimate Parent Desc</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Cedent Name</ID>
+          <Name>Cedent Name</Name>
+          <SourceAttributeID>Cedent Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Country Grouping</Name>
+      <AllMemberName>All Country</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>CG Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>CG Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>CG Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>CG Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>CG Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>CG Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>CG Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>CG Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>CG Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>CG Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>CG Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>CG Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1 1</ID>
+      <Name>EU vs non EU</Name>
+      <AllMemberName>All EU vs non EU</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>EU Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>EU Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>EU Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>EU Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>EU Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>EU Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>EU Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>EU Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>EU Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>EU Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>EU Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>EU Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 2</ID>
+      <Name>World Wide</Name>
+      <AllMemberName>All World Wide</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>WW Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>WW Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>WW Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>WW Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WW Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>WW Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WW Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>WW Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WW Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>WW Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WW Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>WW Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,272 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>12.0.2430.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>GenRe_26072016.database</Name>
+    <FullPath>GenRe_26072016.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>FinancialAccounting.cube</Name>
+      <FullPath>FinancialAccounting.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>FinancialAccounting.partitions</Name>
+          <FullPath>FinancialAccounting.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Account Detail.dim</Name>
+      <FullPath>Account Detail.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Account.dim</Name>
+      <FullPath>Account.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Accounting Period Bridge.dim</Name>
+      <FullPath>Accounting Period Bridge.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Accounting Period.dim</Name>
+      <FullPath>Accounting Period.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Accounting Principles Ledger.dim</Name>
+      <FullPath>Accounting Principles Ledger.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Accounting Unit.dim</Name>
+      <FullPath>Accounting Unit.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Aging Days Bridge2.dim</Name>
+      <FullPath>Aging Days Bridge2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Aging Days2.dim</Name>
+      <FullPath>Aging Days2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Amount Type.dim</Name>
+      <FullPath>Amount Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Calendar.dim</Name>
+      <FullPath>Calendar.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cedent.dim</Name>
+      <FullPath>Cedent.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Company.dim</Name>
+      <FullPath>Company.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CORP Detail.dim</Name>
+      <FullPath>CORP Detail.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Currency Calc Type.dim</Name>
+      <FullPath>Currency Calc Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Currency2.dim</Name>
+      <FullPath>Currency2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Entry Code Groups.dim</Name>
+      <FullPath>Entry Code Groups.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Entry Code Ledger Group Consolidated.dim</Name>
+      <FullPath>Entry Code Ledger Group Consolidated.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Entry Code Short Groups.dim</Name>
+      <FullPath>Entry Code Short Groups.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Exchange Rate Period.dim</Name>
+      <FullPath>Exchange Rate Period.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FI Posting Period Bridge.dim</Name>
+      <FullPath>FI Posting Period Bridge.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FI Posting Period.dim</Name>
+      <FullPath>FI Posting Period.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Financial Category.dim</Name>
+      <FullPath>Financial Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Financial Date.dim</Name>
+      <FullPath>Financial Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Financial Period.dim</Name>
+      <FullPath>Financial Period.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Financial Reporting.dim</Name>
+      <FullPath>Financial Reporting.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FSCD Detail.dim</Name>
+      <FullPath>FSCD Detail.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FSRI Detail.dim</Name>
+      <FullPath>FSRI Detail.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GenRe Org.dim</Name>
+      <FullPath>GenRe Org.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GL Account Hierarchy.dim</Name>
+      <FullPath>GL Account Hierarchy.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GL Account.dim</Name>
+      <FullPath>GL Account.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>IBNR Reserve Cell.dim</Name>
+      <FullPath>IBNR Reserve Cell.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item.dim</Name>
+      <FullPath>Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ledger Group.dim</Name>
+      <FullPath>Ledger Group.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Line Of Business.dim</Name>
+      <FullPath>Line Of Business.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Loss.dim</Name>
+      <FullPath>Loss.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MCOB.dim</Name>
+      <FullPath>MCOB.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>OC UW Years.dim</Name>
+      <FullPath>OC UW Years.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Occurrence2 Bridge.dim</Name>
+      <FullPath>Occurrence2 Bridge.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Occurrence2.dim</Name>
+      <FullPath>Occurrence2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Partner.dim</Name>
+      <FullPath>Partner.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Payable Receivable.dim</Name>
+      <FullPath>Payable Receivable.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Report Extra2.dim</Name>
+      <FullPath>Report Extra2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reporting Categories.dim</Name>
+      <FullPath>Reporting Categories.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Result Dependent Condition.dim</Name>
+      <FullPath>Result Dependent Condition.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>RevalAT CurrencyTo.dim</Name>
+      <FullPath>RevalAT CurrencyTo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>RevalAT Transaction Currency.dim</Name>
+      <FullPath>RevalAT Transaction Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sign Convention.dim</Name>
+      <FullPath>Sign Convention.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Target Currency.dim</Name>
+      <FullPath>Target Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Trading Partner.dim</Name>
+      <FullPath>Trading Partner.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Treaty Consolidation.dim</Name>
+      <FullPath>Treaty Consolidation.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Underwriting2 Bridge.dim</Name>
+      <FullPath>Underwriting2 Bridge.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Underwriting2.dim</Name>
+      <FullPath>Underwriting2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Utility Junk Cube Refresh Time.dim</Name>
+      <FullPath>Utility Junk Cube Refresh Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vendor.dim</Name>
+      <FullPath>Vendor.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DRW.ds</Name>
+      <FullPath>DRW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DRW.dsv</Name>
+      <FullPath>DRW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>DLValidation.role</Name>
+      <FullPath>DLValidation.role</FullPath>
+    </ProjectItem>
+  </Roles>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DRW</Id>
+            <Name>DRW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=USTRNTDD326;Integrated Security=SSPI;Initial Catalog=EnterpriseReporting</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <DeploymentServerEdition>Enterprise</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

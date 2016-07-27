@@ -1,0 +1,1460 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>EntryCode</ID>
+  <Name>Entry Code Groups</Name>
+  <CreatedTimestamp>2016-06-02T18:24:38.25Z</CreatedTimestamp>
+  <LastSchemaUpdate>2016-07-23T17:02:10.633333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1938" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8916" y="14526" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" left="20" top="-3890" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="0" height="0" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="0" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="0" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00000000000000000000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="MSBI_vw_EntryCode" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1938</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5000</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3890</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="3" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="135">
+            <Shape Id="Entry Code SK" Expanded="true">
+              <Attributes>
+                <Attribute Id="Entry Code SK" />
+                <Attribute Id="Cleared" />
+                <Attribute Id="Cleared Desc" />
+                <Attribute Id="Data Source Ref" />
+                <Attribute Id="Entry Code Desc" />
+                <Attribute Id="Exclude Group" />
+                <Attribute Id="Reserve" />
+                <Attribute Id="Reserve Type" />
+                <Attribute Id="Reserve Type Desc" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Entry Code" Expanded="true">
+              <Attributes>
+                <Attribute Id="Entry Code" />
+              </Attributes>
+              <Position x="193" y="20" />
+            </Shape>
+            <Shape Id="Level8" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level8" />
+                <Attribute Id="Level8 Sort" />
+              </Attributes>
+              <Position x="367" y="20" />
+            </Shape>
+            <Shape Id="Level7" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level7" />
+                <Attribute Id="Level7 Sort" />
+              </Attributes>
+              <Position x="541" y="20" />
+            </Shape>
+            <Shape Id="Level6" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level6" />
+                <Attribute Id="Level6 Sort" />
+              </Attributes>
+              <Position x="715" y="20" />
+            </Shape>
+            <Shape Id="Level5" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level5" />
+                <Attribute Id="Level5 Sort" />
+              </Attributes>
+              <Position x="888" y="20" />
+            </Shape>
+            <Shape Id="Level4" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level4" />
+                <Attribute Id="Level4 Sort" />
+              </Attributes>
+              <Position x="1062" y="20" />
+            </Shape>
+            <Shape Id="Level3" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level3" />
+                <Attribute Id="Level3 Sort" />
+              </Attributes>
+              <Position x="1236" y="20" />
+            </Shape>
+            <Shape Id="Level2" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level2" />
+                <Attribute Id="Level2 Sort" />
+              </Attributes>
+              <Position x="1410" y="20" />
+            </Shape>
+            <Shape Id="Level1" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level1" />
+                <Attribute Id="Level1 Sort" />
+              </Attributes>
+              <Position x="1583" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2016-07-23T17:03:28.373333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>DRW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Entry Code SK</ID>
+      <Name>Entry Code SK</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>1153</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>EntryCodeSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>6</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>EntryCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Reserve</AttributeID>
+          <Name>Reserve</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Entry Code Desc</AttributeID>
+          <Name>Entry Code Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Entry Code</AttributeID>
+          <Name>Entry Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Reserve Type</AttributeID>
+          <Name>Reserve Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Reserve Type Desc</AttributeID>
+          <Name>Reserve Type Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cleared Desc</AttributeID>
+          <Name>Cleared Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cleared</AttributeID>
+          <Name>Cleared</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Exclude Group</AttributeID>
+          <Name>Exclude Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Data Source Ref</AttributeID>
+          <Name>Data Source Ref</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Entry Code Desc</ID>
+      <Name>Entry Code Desc</Name>
+      <EstimatedCount>42</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>EntryCodeDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>EntryCodeDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Entry Code</ID>
+      <Name>Entry Code</Name>
+      <EstimatedCount>1153</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>EntryCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>6</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>EntryCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level8</AttributeID>
+          <Name>Level8</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level1</ID>
+      <Name>Level1</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level1 Sort</AttributeID>
+          <Name>Level1 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level1 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level2</ID>
+      <Name>Level2</Name>
+      <EstimatedCount>559</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level1</AttributeID>
+          <Name>Level1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level2 Sort</AttributeID>
+          <Name>Level2 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level2 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level3</ID>
+      <Name>Level3</Name>
+      <EstimatedCount>608</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level2</AttributeID>
+          <Name>Level2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level3 Sort</AttributeID>
+          <Name>Level3 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level3 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level4</ID>
+      <Name>Level4</Name>
+      <EstimatedCount>646</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level3</AttributeID>
+          <Name>Level3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level4 Sort</AttributeID>
+          <Name>Level4 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level4 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level5</ID>
+      <Name>Level5</Name>
+      <EstimatedCount>661</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level4</AttributeID>
+          <Name>Level4</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level5 Sort</AttributeID>
+          <Name>Level5 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level5 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level6</ID>
+      <Name>Level6</Name>
+      <EstimatedCount>981</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level6</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level5</AttributeID>
+          <Name>Level5</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level6 Sort</AttributeID>
+          <Name>Level6 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level6 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level1 Sort</ID>
+      <Name>Level1 Sort</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level1Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level7</ID>
+      <Name>Level7</Name>
+      <EstimatedCount>1152</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level7</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level7</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level6</AttributeID>
+          <Name>Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level7 Sort</AttributeID>
+          <Name>Level7 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level7 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level2 Sort</ID>
+      <Name>Level2 Sort</Name>
+      <EstimatedCount>12</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level2Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level3 Sort</ID>
+      <Name>Level3 Sort</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level3Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level4 Sort</ID>
+      <Name>Level4 Sort</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level4Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level4Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level5 Sort</ID>
+      <Name>Level5 Sort</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level5Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level5Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level6 Sort</ID>
+      <Name>Level6 Sort</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level6Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level6Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level7 Sort</ID>
+      <Name>Level7 Sort</Name>
+      <EstimatedCount>1</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level7Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level7Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Reserve</ID>
+      <Name>Reserve</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Reserve</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Reserve</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Reserve Type</ID>
+      <Name>Reserve Type</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>ReserveType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>ReserveType</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Reserve Type Desc</ID>
+      <Name>Reserve Type Desc</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>ReserveTypeDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>ReserveTypeDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cleared Desc</ID>
+      <Name>Cleared Desc</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>ClearedDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>ClearedDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cleared</ID>
+      <Name>Cleared</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Cleared</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Cleared</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Exclude Group</ID>
+      <Name>Exclude Group</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>ExcludeGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>ExcludeGroup</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Data Source Ref</ID>
+      <Name>Data Source Ref</Name>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>DataSourceRef</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>32</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>DataSourceRef</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level8</ID>
+      <Name>Level8</Name>
+      <EstimatedCount>1537</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level7</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level8</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level8</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level7</AttributeID>
+          <Name>Level7</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level8 Sort</AttributeID>
+          <Name>Level8 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>Level8 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level8 Sort</ID>
+      <Name>Level8 Sort</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_EntryCode</TableID>
+            <ColumnID>Level8Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_EntryCode</TableID>
+          <ColumnID>Level8Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Entry Codes</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Cedent AP</Name>
+      <Levels>
+        <Level>
+          <ID>Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Level7</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Level8</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 4</ID>
+      <Name>Cedent AP OnlyChildWithParentName</Name>
+      <Levels>
+        <Level>
+          <ID>Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Level2</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Level3</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Level4</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Level5</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Level6</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Level7</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Level8</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 3</ID>
+      <Name>Cedent AP OnlyChildWithNoName</Name>
+      <Levels>
+        <Level>
+          <ID>Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Level2</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Level3</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Level4</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Level5</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Level6</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Level7</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Level8</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 2</ID>
+      <Name>Cedent AP ParentName</Name>
+      <Levels>
+        <Level>
+          <ID>Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Level2</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Level3</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Level4</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Level5</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Level6</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Level7</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Level8</SourceAttributeID>
+          <HideMemberIf>ParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Cedent AP Never</Name>
+      <Levels>
+        <Level>
+          <ID>Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Level2</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Level3</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Level4</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Level5</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Level6</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Level7</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Level8</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

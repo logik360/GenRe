@@ -1,0 +1,1322 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Business Unit Hierarchy</ID>
+  <Name>GenRe Org</Name>
+  <CreatedTimestamp>2016-06-02T18:24:38.296667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2016-07-23T17:02:10.953333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2546" scrolltop="-11059" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8758" y="20452" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vw_DimBusinessUnitHierarchy" left="-2150" top="-6059" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6112" height="9685" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e0170000d5250000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="MSBI_vw_DimBusinessUnitHierarchy" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2546</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-11059</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2150</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-6059</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="200" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="205">
+            <Shape Id="Business Unit Hierarchy SK" Expanded="true">
+              <Attributes>
+                <Attribute Id="Business Unit Hierarchy SK" />
+                <Attribute Id="BU Accountability" />
+                <Attribute Id="BU Accountability Desc" />
+              </Attributes>
+              <Position x="228" y="20" />
+            </Shape>
+            <Shape Id="Level10" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level10" />
+                <Attribute Id="Level10 Sort" />
+              </Attributes>
+              <Position x="489" y="20" />
+            </Shape>
+            <Shape Id="Level9" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level9" />
+                <Attribute Id="Level9 Sort" />
+              </Attributes>
+              <Position x="750" y="20" />
+            </Shape>
+            <Shape Id="Level8" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level8" />
+                <Attribute Id="Level8 Sort" />
+              </Attributes>
+              <Position x="1011" y="20" />
+            </Shape>
+            <Shape Id="Level7" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level7" />
+                <Attribute Id="Level7 Sort" />
+              </Attributes>
+              <Position x="1273" y="20" />
+            </Shape>
+            <Shape Id="Level6" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level6" />
+                <Attribute Id="Level6 Sort" />
+              </Attributes>
+              <Position x="1534" y="20" />
+            </Shape>
+            <Shape Id="Level5" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level5" />
+                <Attribute Id="Level5 Sort" />
+              </Attributes>
+              <Position x="1795" y="20" />
+            </Shape>
+            <Shape Id="Level4" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level4" />
+                <Attribute Id="Level4 Sort" />
+              </Attributes>
+              <Position x="2056" y="20" />
+            </Shape>
+            <Shape Id="Level3" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level3" />
+                <Attribute Id="Level3 Sort" />
+              </Attributes>
+              <Position x="2318" y="20" />
+            </Shape>
+            <Shape Id="Level2" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level2" />
+                <Attribute Id="Level2 Sort" />
+              </Attributes>
+              <Position x="2579" y="20" />
+            </Shape>
+            <Shape Id="Level1" Expanded="true">
+              <Attributes>
+                <Attribute Id="Level1" />
+                <Attribute Id="Level1 Sort" />
+              </Attributes>
+              <Position x="2840" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2016-07-23T17:03:33.436667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>DRW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission>
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>2016-06-02T18:24:38.313333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2016-07-23T17:02:11.043333Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Business Unit Hierarchy SK</ID>
+      <Name>Business Unit Hierarchy SK</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>95</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>BusinessUnitHierarchySK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>BusinessUnitHierarchySK</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>BU Accountability Desc</AttributeID>
+          <Name>BU Accountability Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>BU Accountability</AttributeID>
+          <Name>BU Accountability</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level10</AttributeID>
+          <Name>Level10</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level1</ID>
+      <Name>Level1</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level1 Sort</AttributeID>
+          <Name>Level1 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level1 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level2</ID>
+      <Name>Level2</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level1</AttributeID>
+          <Name>Level1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level2 Sort</AttributeID>
+          <Name>Level2 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level2 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level3</ID>
+      <Name>Level3</Name>
+      <EstimatedCount>15</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level2</AttributeID>
+          <Name>Level2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level3 Sort</AttributeID>
+          <Name>Level3 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level3 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level4</ID>
+      <Name>Level4</Name>
+      <EstimatedCount>23</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level3</AttributeID>
+          <Name>Level3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level4 Sort</AttributeID>
+          <Name>Level4 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level4 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level5</ID>
+      <Name>Level5</Name>
+      <EstimatedCount>28</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level4</AttributeID>
+          <Name>Level4</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level5 Sort</AttributeID>
+          <Name>Level5 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level5 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level6</ID>
+      <Name>Level6</Name>
+      <EstimatedCount>30</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level6</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level5</AttributeID>
+          <Name>Level5</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level6 Sort</AttributeID>
+          <Name>Level6 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level6 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BU Accountability Desc</ID>
+      <Name>BU Accountability Desc</Name>
+      <EstimatedCount>93</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>BUAccountabilityDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>BUAccountabilityDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BU Accountability</ID>
+      <Name>BU Accountability</Name>
+      <EstimatedCount>95</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>BUAccountability</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>BUAccountability</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level1 Sort</ID>
+      <Name>Level1 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level1Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level2 Sort</ID>
+      <Name>Level2 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level2Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level3 Sort</ID>
+      <Name>Level3 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level3Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level4 Sort</ID>
+      <Name>Level4 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level4Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level5 Sort</ID>
+      <Name>Level5 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level5Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level6 Sort</ID>
+      <Name>Level6 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level6Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level6Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level7</ID>
+      <Name>Level7</Name>
+      <EstimatedCount>85</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level7</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level7</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level6</AttributeID>
+          <Name>Level6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level7 Sort</AttributeID>
+          <Name>Level7 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level7 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level8</ID>
+      <Name>Level8</Name>
+      <EstimatedCount>85</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level7</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level8</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level8</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level7</AttributeID>
+          <Name>Level7</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level8 Sort</AttributeID>
+          <Name>Level8 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level8 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level9</ID>
+      <Name>Level9</Name>
+      <EstimatedCount>85</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level7</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level8</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level9</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level9</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level8</AttributeID>
+          <Name>Level8</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level9 Sort</AttributeID>
+          <Name>Level9 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level9 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level10</ID>
+      <Name>Level10</Name>
+      <EstimatedCount>85</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level1</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level2</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level3</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level4</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level5</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level6</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level7</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level8</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level9</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level10</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level10</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Level9</AttributeID>
+          <Name>Level9</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Level10 Sort</AttributeID>
+          <Name>Level10 Sort</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Level10 Sort</OrderByAttributeID>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level7 Sort</ID>
+      <Name>Level7 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level7Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level7Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level8 Sort</ID>
+      <Name>Level8 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level8Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level8Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level9 Sort</ID>
+      <Name>Level9 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level9Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level9Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Level10 Sort</ID>
+      <Name>Level10 Sort</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+            <ColumnID>Level10Sort</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>MSBI_vw_DimBusinessUnitHierarchy</TableID>
+          <ColumnID>Level10Sort</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Gen Re Org HR</Name>
+      <AllMemberName>All Business Unit</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>Level1</ID>
+          <Name>Level1</Name>
+          <SourceAttributeID>Level1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Level2</ID>
+          <Name>Level2</Name>
+          <SourceAttributeID>Level2</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level3</ID>
+          <Name>Level3</Name>
+          <SourceAttributeID>Level3</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level4</ID>
+          <Name>Level4</Name>
+          <SourceAttributeID>Level4</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level5</ID>
+          <Name>Level5</Name>
+          <SourceAttributeID>Level5</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level6</ID>
+          <Name>Level6</Name>
+          <SourceAttributeID>Level6</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level7</ID>
+          <Name>Level7</Name>
+          <SourceAttributeID>Level7</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level8</ID>
+          <Name>Level8</Name>
+          <SourceAttributeID>Level8</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level9</ID>
+          <Name>Level9</Name>
+          <SourceAttributeID>Level9</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Level10</ID>
+          <Name>Level10</Name>
+          <SourceAttributeID>Level10</SourceAttributeID>
+          <HideMemberIf>NoName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
